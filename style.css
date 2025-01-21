@@ -1,0 +1,45 @@
+/* 1. Style the entire body */
+body {
+    margin: 0; /* Remove default browser margin */
+    overflow: hidden; /* Prevent scrollbars */
+    font-family: Arial, sans-serif; /* Use Arial or a fallback sans-serif font */
+}
+
+/* 2. Style the GUI container (the div with id="gui") */
+#gui {
+    position: absolute; /* Position the GUI relative to the viewport */
+    top: 10px; /* 10px from the top */
+    left: 10px; /* 10px from the left */
+    padding: 10px; /* Add padding inside the container */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white; /* White text colour */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* 3. Style all labels inside the GUI */
+#gui label {
+    display: block; /* Make labels appear on their own line */
+    margin: 10px 0 5px; /* Add spacing above and below labels */
+}
+
+/* 4. Style all input elements and buttons inside the GUI */
+#gui input,
+#gui button {
+    width: 100%; /* Make inputs and buttons take up full width of the GUI */
+    /*margin-bottom: 10px; /* Add space below inputs and buttons */
+}
+
+/* 5. Style the button specifically */
+#gui button {
+    cursor: pointer; /* Show a pointer cursor when hovering over the button */
+    padding: 5px; /* Add padding inside the button */
+    background: #444; /* Dark grey background colour */
+    color: white; /* White text */
+    border: none; /* Remove the default border */
+    border-radius: 3px; /* Add rounded corners */
+}
+
+/* 6. Add hover effect for the button */
+#gui button:hover {
+    background: #666; /* Lighter grey background when the mouse is over the button */
+}

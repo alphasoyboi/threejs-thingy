@@ -1,0 +1,26 @@
+<!-- Declares the document type and version of HTML -->
+<!DOCTYPE html>
+<!-- The root element of an HTML document with the language set to English -->
+<html lang="en">
+  <!-- Contains meta-information about the document -->
+  <head>
+    <!-- Sets the character encoding for the document to UTF-8 -->
+    <meta charset="utf-8">
+    <!-- The title of the webpage, displayed in the browser tab -->
+    <title>My first three.js app</title>
+    <!-- Links to an external CSS file for styling the webpage -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <!-- The main content of the HTML document -->
+  <body>
+    <!-- A div element to contain the GUI elements -->
+    <div id="gui">
+      <!-- A button to toggle the rotation of the cube -->
+      <button id="toggleRotation"></button>
+    </div>
+
+    <!-- Includes the main JavaScript file as a module, which contains the Three.js code -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
